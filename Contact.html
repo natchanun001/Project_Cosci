@@ -65,7 +65,7 @@
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <input type="text" class="form-control" name="from" id="from" placeholder="form" required>
               </div>
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
@@ -74,7 +74,8 @@
                 
                 
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submitButton" onclick="save()"><a href="Contact.html">Send Message</a></button></div>
+              
             </form>
   
           </div>
@@ -88,6 +89,22 @@
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
+            
         <script src="js/scripts.js"></script>
     </body>
+    <script>
+//         function save() {
+//     var name = document.getElementById("name").value;
+//     var email = document.getElementById("email").value;
+//     var from = document.getElementById("from").value;
+//     var message = document.getElementById("message").value;
+
+//     alert("success")
+
+//     var n = localStorage.setItem("name",name);
+//     var mail = localStorage.setItem("email",email);
+//     var p = localStorage.setItem("from",from);
+//     var mes = localStorage.setItem("message",message);
+// }
+</script>
 </html>
